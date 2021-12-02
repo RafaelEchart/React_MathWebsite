@@ -20,10 +20,10 @@ const Navbar = () => {
       <DesktopMenu />
 
     <nav className="navBar MediaQueryMobile">
-
       <HamburgerButton handleToggle={handleToggle} navbarOpen={navbarOpen} />
       <HamburgerOptions closeMenu={closeMenu} navbarOpen={navbarOpen} />
     </nav>
+
     </React.Fragment>
   );
 };

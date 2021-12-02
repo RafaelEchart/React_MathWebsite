@@ -45,6 +45,7 @@
 
 .MediaQueryMobile {
   display: block;
+  height: 70px;
 }
 
 @media only screen and (min-width: 768px) {

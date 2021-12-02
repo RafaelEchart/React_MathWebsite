@@ -1,0 +1,15 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeInnerContainer {
+    max-width: 1300px;
+    margin: 5%;
+}
+
+.homeTitle {
+    margin-bottom: 25px;
+}

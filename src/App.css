@@ -120,11 +120,11 @@ body {
 }
 
 .navBar {
-  position: relative;
+  position: inherit;
 }
 
 .navBar button {
-  position: fixed;
+  position: absolute;
   left: 40px;
   top: 40px;
   z-index: 10;
