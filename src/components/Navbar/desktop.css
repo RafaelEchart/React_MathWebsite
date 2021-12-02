@@ -25,7 +25,6 @@
   text-transform: none;
   text-decoration: underline;
   padding: 10px 20px;
-  
 }
 
 .nav_container {
@@ -53,7 +52,7 @@
     display: none;
   }
 
-  .nav_container{
+  .nav_container {
     display: flex;
   }
 }

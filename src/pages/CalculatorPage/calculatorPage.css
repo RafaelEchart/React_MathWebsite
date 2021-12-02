@@ -1,12 +1,10 @@
 .calculatorContent_Container {
-    margin: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-
 .calculatorTitle {
-    margin: 20px;
+  margin: 20px;
 }

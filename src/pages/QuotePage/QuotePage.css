@@ -1,14 +1,14 @@
 .authorClass {
-    float: right;
+  float: right;
 }
 
 .quoteClass {
-    text-align: center;
+  text-align: center;
 }
 
 .newQuoteIcon {
-    float: right;
-    font-size: 20px;
-    margin-top: 10px;
-    cursor: pointer;
+  float: right;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
 }
