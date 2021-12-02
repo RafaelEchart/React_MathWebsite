@@ -14,7 +14,7 @@ const DesktopMenu = () => (
             <Link to="/">Home</Link>
           </li>
     <li key="/about">
-            <Link to="/about">Calculator</Link>
+            <Link to="/calculator">Calculator</Link>
           </li>
     <li key="/quote" className="lastChildList">
             <Link to="/quote">Quote</Link>

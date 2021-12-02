@@ -10,8 +10,13 @@ const HamburgerOptions = (props) => {
     },
     {
       id: 2,
-      path: '/about',
-      text: 'About',
+      path: '/calculator',
+      text: 'Calculator',
+    },
+    {
+      id: 3,
+      path: '/quote',
+      text: 'Quote',
     },
   ];
 

@@ -17,7 +17,7 @@ ReactDOM.render(
     <Navbar/>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/about" component={CalculatorPage} />
+        <Route path="/calculator" component={CalculatorPage} />
         <Route path="/quote" component={QuotePage} />
         <Route path="*" component={NotMatch} />
       </Switch>
