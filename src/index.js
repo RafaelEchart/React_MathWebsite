@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
-// import CalculatorPage from './pages/CalculatorPage';
+import CalculatorPage from './pages/CalculatorPage';
+import QuotePage from './pages/QuotePage';
 // import ToDoContainer from './components/ToDoContainer';
 import reportWebVitals from './reportWebVitals';
 // import About from './pages/About';
-// import NotMatch from './pages/NotMatch';
+import NotMatch from './pages/NotMatch';
 import Navbar from './components/Navbar/index';
 
 ReactDOM.render(
@@ -16,8 +17,9 @@ ReactDOM.render(
     <Navbar/>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        {/* <Route path="/about" component={CalculatorPage} /> */}
-        {/* <Route path="*" component={NotMatch} /> */}
+        <Route path="/about" component={CalculatorPage} />
+        <Route path="/quote" component={QuotePage} />
+        <Route path="*" component={NotMatch} />
       </Switch>
     </Router>
   </React.StrictMode>,
