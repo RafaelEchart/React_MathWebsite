@@ -2,7 +2,8 @@
 
 # React / Math Website
 
-> In this SPA React js project is intented to showcase the usage of React Router DOM and components.  
+> In this SPA React js project is intented to showcase the usage of React Router DOM and components. 
+ 
 
 ## Built With
 
