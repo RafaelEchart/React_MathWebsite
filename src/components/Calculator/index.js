@@ -22,6 +22,7 @@ const Calculator = () => {
   };
 
   const clickHandler = (e) => {
+    console.log(result);
     const ButtonName = e.target.innerText;
     newResultState(ButtonName);
   };
