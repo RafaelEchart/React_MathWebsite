@@ -5,9 +5,6 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import CalculatorPage from './pages/CalculatorPage';
 import QuotePage from './pages/QuotePage';
-// import ToDoContainer from './components/ToDoContainer';
-import reportWebVitals from './reportWebVitals';
-// import About from './pages/About';
 import NotMatch from './pages/NotMatch';
 import Navbar from './components/Navbar/index';
 
@@ -25,5 +22,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
-
-reportWebVitals();
