@@ -26,9 +26,9 @@ const QuotePage = () => {
   }, []);
 
   return (
-    <div className="homeContainer">
+    <div className="homeContainer" id="custom-element">
       <div className="homeInnerContainer">
-
+      <p>Math Quote..</p>
       {quote
       && <><h3 className="quoteClass">{quote.quote}</h3>
       <span className="authorClass">-{quote.author}</span><br/>
