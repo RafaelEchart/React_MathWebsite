@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages snapshots Should render QuotePage 1`] = `
+<div
+  className="homeContainer"
+  id="custom-element"
+>
+  <div
+    className="homeInnerContainer"
+  >
+    <p>
+      Math Quote..
+    </p>
+  </div>
+</div>
+`;
