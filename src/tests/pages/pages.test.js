@@ -7,7 +7,7 @@ import CalculatorPage from '../../pages/CalculatorPage/index.js';
 import HomePage from '../../pages/HomePage/index.js';
 import QuotePage from '../../pages/QuotePage/index.js';
 
-describe('Pages', () => {
+describe('Pages snapshots', () => {
   it('Should render HomePage', async () => {
     render(<HomePage />);
     expect(screen.getByText('Welcome to our page!')).toBeInTheDocument();

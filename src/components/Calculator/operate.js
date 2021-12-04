@@ -1,8 +1,14 @@
 import Big from 'big.js';
 
 export default function operate(numberOne, numberTwo, operation) {
-  const one = Big(numberOne);
-  const two = Big(numberTwo);
+  let one;
+  let two;
+  try {
+    one = Big(numberOne);
+    two = Big(numberTwo);
+  } catch (err) {
+    return 'Invalid Number!';
+  }
   if (operation === '+') {
     return one.plus(two).toString();
   }
@@ -26,5 +32,5 @@ export default function operate(numberOne, numberTwo, operation) {
       return "Can't Module by 0.";
     }
   }
-  throw Error(`Unknown operation '${operation}'`);
+  return (`Unknown operation '${operation}'`);
 }
