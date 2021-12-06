@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages snapshots Should render CalculatorPage 1`] = `
+<div
+  className="calculatorContent_Container"
+>
+  <h2
+    className="calculatorTitle"
+  >
+    Lets do some math!
+  </h2>
+  <div
+    className="calculator_container"
+  >
+    <div
+      className="result_container"
+    >
+      0
+    </div>
+    <div
+      className="row_container"
+    >
+      <button
+        className="number gray_button"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="row_container"
+      type="button"
+    >
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="row_container"
+    >
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="row_container"
+    >
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="row_container"
+    >
+      <button
+        className="number_zero"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="number"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="operation"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pages snapshots Should render HomePage 1`] = `
+<div
+  className="homeContainer"
+>
+  <div
+    className="homeInnerContainer"
+  >
+    <h1
+      className="homeTitle"
+    >
+      Welcome to our page!
+    </h1>
+    <p>
+      React Calculator sole focus is to provide fast, comprehensive, convenient, free online calculators in a plethora of areas. Currently, we have around easy solutions to help you "do the math" quickly in areas such as finance, fitness, health, math, and others, and we are still developing more. Our goal is to become the one-stop, go-to site for people who need to make quick calculations. Additionally, we believe the internet should be a source of free information. Therefore, all of our tools and services are completely free, with no registration required. We coded and developed each calculator individually and put each one through strict, comprehensive testing. However, please inform us if you notice even the slightest error – your input is extremely valuable to us.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pages snapshots Should render QuotePage 1`] = `
+<div
+  className="homeContainer"
+  id="custom-element"
+>
+  <div
+    className="homeInnerContainer"
+  >
+    <p>
+      Math Quote..
+    </p>
+  </div>
+</div>
+`;
