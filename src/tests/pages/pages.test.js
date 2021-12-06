@@ -5,7 +5,6 @@ import {
 import '@testing-library/jest-dom';
 import CalculatorPage from '../../pages/CalculatorPage/index.js';
 import HomePage from '../../pages/HomePage/index.js';
-import QuotePage from '../../pages/QuotePage/index.js';
 
 describe('Pages snapshots', () => {
   it('Should render HomePage', async () => {
@@ -16,10 +15,5 @@ describe('Pages snapshots', () => {
   it('Should render CalculatorPage', async () => {
     render(<CalculatorPage />);
     expect(screen.getByText('Lets do some math!')).toBeInTheDocument();
-  });
-
-  it('Should render QuotePage', async () => {
-    render(<QuotePage />);
-    expect(screen.getByText('Math Quote..')).toBeInTheDocument();
   });
 });
