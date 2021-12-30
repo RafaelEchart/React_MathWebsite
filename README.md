@@ -9,10 +9,6 @@
 
  [Live link](https://61ae4e3fe40be00060c18371--react-math-website.netlify.app/)
 
-## Heroku Deploy
-
- [Live link](https://rafaelechart-math-website.herokuapp.com/)
-
 
 ## Built With
 
@@ -33,8 +29,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- git clone https://github.com/RafaelEchart/React-MathWebsite.git
-- cd React-MathWebsite
+- git clone https://github.com/RafaelEchart/React_MathWebsite.git
+- cd React_MathWebsite
 
 ### Install
 
